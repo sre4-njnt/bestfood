@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 483106397391.dkr.ecr.ap-northeast-2.amazonaws.com/njnt-tomcat:16
+        image: 483106397391.dkr.ecr.ap-northeast-2.amazonaws.com/njnt-tomcat:17
         ports:
         - containerPort: 8080
       imagePullSecrets:
