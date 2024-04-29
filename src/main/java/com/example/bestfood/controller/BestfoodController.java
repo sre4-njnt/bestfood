@@ -9,6 +9,6 @@ public class BestfoodController {
     @GetMapping("/")
     public String main() {
 
-        return "main";
+        return "index";
     }
 }
